@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "info.unbelievable9.grpc.common";
+
+message GreetingMessage {
+    string name = 1;
+}
+
+message ReplyMessage {
+    string message = 1;
+}
+
+service TalkService {
+    rpc SayHello (GreetingMessage) returns (ReplyMessage);
+}

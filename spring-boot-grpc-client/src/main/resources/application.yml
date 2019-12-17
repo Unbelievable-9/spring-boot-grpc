@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: spring-boot-grpc-client
+
+grpc:
+  client:
+    talk-service-client:
+      host: 127.0.0.1
+      port: 9091
+
