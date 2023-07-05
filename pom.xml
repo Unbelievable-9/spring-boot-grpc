@@ -30,7 +30,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <demo.version>1.0.0-SNAPSHOT</demo.version>
         <spring-boot.version>1.5.21.RELEASE</spring-boot.version>
-        <grpc.version>1.12.0</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
         <gprc-starter.version>1.4.2.RELEASE</gprc-starter.version>
     </properties>
 
